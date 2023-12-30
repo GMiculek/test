@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+	<link type="text/css" rel="stylesheet" href="common.css">
+	<script type="text/javascript" src="common.js"></script>
+    <head>
+        <title>
+            Access Control Project - Verification
+        </title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+
+    <body>
+	
+        <div class="content">
+		
+			<div class='choice_options'>
+				
+				<br></br> 
+				<i class="material-icons" style="font-size: 56px; color:black;">lock_outline</i>
+				<p><strong class="bigtext">Two Factor Authentication</strong></p>
+
+				<input type="text" id="given_code" name="given_code"  placeholder="Authorization_code"><br>
+
+				<p></p>
+
+				<button id ="button6" class="button" onclick="verify()">Verify</button>
+				
+				<br></br> 
+				<br></br>
+				<br></br> 
+				
+				<p><strong style="font-family: Arial, Helvetica, sans-serif ;"><i class="material-icons" style="font-size: 16px; color:black;">lock</i> Open the two-factor authentication app on your device and run "node The_Segfaults_codegen.js *****" in a terminal with your secret key to verify your identity</strong></p>
+
+				<textarea id="show_message" class="textarea" rows="5" cols="45"> </textarea>
+				
+				<p></p>
+				
+				<p></p>
+				
+				<button id ="button7"  class="button"  onclick="returnto()" >Return</button>
+
+			</div>	
+
+		</div>
+	
+    </body>
+	
+</html>
